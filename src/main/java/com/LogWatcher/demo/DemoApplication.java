@@ -10,8 +10,6 @@ import java.io.IOException;
 public class DemoApplication {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
-//		FileWatcherService fileWatcherService = new FileWatcherService();
-//		fileWatcherService.startWatching();
 		System.out.println("Application starts");
 		SpringApplication.run(DemoApplication.class, args);
 	}
